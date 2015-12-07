@@ -1,0 +1,98 @@
+/*
+Theme Name: Fixy
+Description: Default Style Colors.
+Fixy WordPress theme, Copyright (C) 2013 ITstar. 
+*/
+
+/*color*/
+a:hover, .secondary a:hover, .footer-area a:hover {
+color : rgb(93, 163, 255);
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, article.single-format-link .post-title a#link-title, article.format-link .post-title a#link-title {
+color : rgb(70, 137, 246);
+}
+a.site-title, .post-meta .meta-cat a:hover, .navigation-widget h3.widget-title:before, #ajax-login a.ajax-close:hover {
+color : rgb(216, 66, 55);
+}
+.post-meta .meta-date a:hover {
+color : rgb(0, 167, 83);
+}
+a.close-focus, .featured-post .icon-star, .post-meta .meta-comment a:hover {
+color : rgb(255, 169, 0);
+}
+blockquote:before, q:before, .header-menu li a:hover, .header-menu .current_page_item > a, .header-menu .current_page_ancestor > a, .header-menu .current-menu-item > a, .header-menu .current-menu-ancestor > a, article.format-quote .post-content:before, article.single-format-quote .post-content:before, .post-meta .meta-tag a:hover {
+color : rgb(142, 68, 173);
+}
+a, .edit-link a:hover, .post-meta .meta-author a:hover {
+color : rgb(53, 122, 232);
+}
+
+/*border*/
+article.format-quote, article.format-chat, .post-meta .meta-tag a:hover {
+border-color : rgb(142, 68, 173);
+}
+article.format-link {
+border-color : rgb(70, 137, 246);
+}
+.post-meta .meta-cat a:hover {
+border-color : rgb(216, 66, 55);
+}
+ol.comment-list li.bypostauthor > article.comment-body, article.format-aside {
+border-color : rgb(248, 197, 61);
+}
+.post-meta .meta-comment a:hover {
+border-color : rgb(255, 169, 0);
+}
+article.format-gallery, .post-meta .meta-date a:hover, article.format-image {
+border-color : rgb(0, 167, 83);
+}
+article.format-audio, article.format-video {
+border-color : rgb(211, 84, 0);
+}
+.header-menu li a:hover, .header-menu .current_page_item > a, .header-menu .current_page_ancestor > a, .header-menu .current-menu-item > a, .header-menu .current-menu-ancestor > a, .tag .archive-header {
+border-bottom-color : rgb(142, 68, 173);
+}
+.search-results .page-header, .search-no-results .page-header, .author .archive-header, .author .author-info, .post-meta .meta-author a:hover {
+border-bottom-color : rgb(53, 122, 232);
+}
+.category .archive-header, .error404 .page-header {
+border-bottom-color : rgb(216, 66, 55);
+}
+.date .archive-header {
+border-bottom-color : rgb(0, 167, 83);
+}
+.comments-title {
+border-bottom-color : rgb(255, 169, 0);
+}
+.format-chat .post-content p {
+border-left-color : rgb(53, 122, 232);
+}
+.format-chat .post-content p:nth-child(odd) {
+border-left-color : rgb(211, 84, 0);
+}
+
+/*background*/
+.post-meta .icon-comment, .comments-title .icon-comment {
+background-color : rgb(255, 169, 0);
+}
+.post-meta .icon-user, .archive-header .icon-user, .search-results .page-header .icon-search, .search-no-results .icon-search, .archive .page-header .icon-search {
+background-color : rgb(53, 122, 232);
+}
+.post-meta .icon-folder-open-empty, .archive-header .icon-folder-open-empty, .error404 .icon-attention {
+background-color : rgb(216, 66, 55);
+}
+.post-meta .icon-calendar, .archive-header .icon-calendar {
+background-color : rgb(0, 167, 83);
+}
+.post-meta .icon-tags, .archive-header .icon-tags {
+background-color : rgb(142, 68, 173);
+}
+.banner a .icon-search:hover {
+background-color : rgba(70, 137, 246, 0.6);
+}
+.banner a .icon-user:hover {
+background-color : rgba(216, 66, 55, 0.6);
+}
+.banner a .icon-rss:hover {
+background-color : rgba(248, 197, 61, 0.6);
+}

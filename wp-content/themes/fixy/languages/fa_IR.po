@@ -1,0 +1,676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fixy v0.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-15 20:25:32+0000\n"
+"Last-Translator: Hamed.n <info@itstar.ir>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: IRAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:12
+#@ fixy
+msgid "Not found"
+msgstr "موردی یافت نشد"
+
+#: 404.php:13
+#@ fixy
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "این باعث تاسف است!"
+
+#: 404.php:14
+#@ fixy
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "به نظر می رسد مطلب مورد نظر شما در این آدرس موجود نمی باشد. فرم جستجو می تواند مفید باشد!"
+
+#: archive.php:21
+#, php-format
+#@ fixy
+msgid " Daily Archives: %s"
+msgstr "بایگانی روزانه :  %s"
+
+#: archive.php:23
+#, php-format
+#@ fixy
+msgid " Monthly Archives: %s"
+msgstr "بایگانی ماهانه :  %s"
+
+#: archive.php:23
+#@ fixy
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+#@ fixy
+msgid " Yearly Archives: %s"
+msgstr "بایگانی سالیانه :  %s"
+
+#: archive.php:25
+#@ fixy
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:27
+#@ fixy
+msgid "Archives"
+msgstr "بایگانی ها"
+
+#: author.php:24
+#, php-format
+#@ fixy
+msgid " All posts by %s"
+msgstr "تمامی مطالب  %s"
+
+#: category.php:17
+#, php-format
+#@ fixy
+msgid "Category Archives: %s"
+msgstr "بایگانی دسته بندی :  %s"
+
+#: comments.php:18
+#, php-format
+#@ fixy
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "یک دیدگاه برای &rdquo;%2$s&ldquo; ارسال شده است."
+msgstr[1] "%1$s دیدگاه برای &rdquo;%2$s&ldquo; ارسال شده است."
+
+#: comments.php:29
+#@ fixy
+msgid "Reply<i class=\" icon-level-up\"></i>"
+msgstr "<i class=\" icon-level-up\"></i> پاسخ"
+
+#: comments.php:35
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i> Older Comments"
+msgstr "دیدگاه های قدیمی تر <i class=\"icon-right-open\"></i>"
+
+#: comments.php:36
+#@ fixy
+msgid "Newer Comments <i class=\"icon-right-open\"></i>"
+msgstr "دیدگاه های جدیدتر <i class=\"icon-left-open\"></i>"
+
+#: comments.php:41
+#@ fixy
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته است."
+
+#: content-aside.php:13
+#: content-audio.php:33
+#: content-chat.php:29
+#: content-gallery.php:35
+#: content-image.php:40
+#: content-link.php:25
+#: content-quote.php:14
+#: content-status.php:15
+#: content-video.php:34
+#: content.php:46
+#: page.php:23
+#@ fixy
+msgid "Pages:"
+msgstr "صفحه :"
+
+#: content-aside.php:18
+#: content-aside.php:21
+#: content-audio.php:37
+#: content-chat.php:32
+#: content-gallery.php:41
+#: content-image.php:43
+#: content-link.php:35
+#: content-quote.php:16
+#: content-status.php:18
+#: content-video.php:37
+#: content.php:49
+#: page.php:25
+#@ fixy
+msgid "<i class=\"icon-pencil\">Edit</i>"
+msgstr "<i class=\"icon-pencil\"></i> ویرایش"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#: post-meta.php:46
+#@ fixy
+msgid "Leave a comment"
+msgstr "ارسال دیدگاه"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#: post-meta.php:46
+#@ fixy
+msgid "One comment so far"
+msgstr "یک دیدگاه قدیمی"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#: post-meta.php:46
+#@ fixy
+msgid "View all % comments"
+msgstr "نمایش % دیدگاه"
+
+#: content-audio.php:14
+#: content-gallery.php:16
+#: content-image.php:15
+#: content-video.php:16
+#: content.php:15
+#@ fixy
+msgid "<i class=\"icon-star\">Featured</i>"
+msgstr "<i class=\"icon-star\">ویژه</i>"
+
+#: content-none.php:12
+#@ fixy
+msgid "Nothing Found"
+msgstr "موردی یافت نشد."
+
+#: content-none.php:18
+#, php-format
+#@ fixy
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آیا برای ارسال اولین مطلب خود آماده هستید؟ <a href=\"%1$s\">اینجا شروع کنید!</a>."
+
+#: content-none.php:22
+#@ fixy
+msgid "<i class=\"icon-attention\"></i>Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "<i class=\"icon-attention\"></i> متاسفیم، مطلبی مطابق با مورد جستجو شده یافت نشد. لطفا مجددا با کلمات دیگر امتحان نمایید."
+
+#: content-none.php:33
+#@ fixy
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "به نظر می رسد می رسد مطلبی که شما به دنبال آن هستید یافت نشده است . شاید فرم جستجو مفید باشد."
+
+#: functions.php:26
+#@ fixy
+msgid "Header Menu"
+msgstr "فهرست اصلی"
+
+#: functions.php:66
+#@ fixy
+msgid "Sidebar Widget Area"
+msgstr "ابزارک های ستون کناری"
+
+#: functions.php:68
+#@ fixy
+msgid "Widgets Area on Right Hand"
+msgstr "بخش ابزارک ها در ستون کناری سمت راست"
+
+#: functions.php:76
+#@ fixy
+msgid "Sticky Widget Area"
+msgstr "ابزارک های چسبنده"
+
+#: functions.php:78
+#@ fixy
+msgid "An Sticky Widget Area on top and bottom "
+msgstr "بخش نمایش ابزارک های چسبنده در ستون کناری"
+
+#: functions.php:86
+#@ fixy
+msgid "Full Width Footer Widget Area"
+msgstr "ابزارک های  تمام صفحه "
+
+#: functions.php:88
+#@ fixy
+msgid "Shows Widgets in Full Footer Area"
+msgstr "ابزارک ها را به شکل تمام صفحه در پانوشت نمایش خواهد داد"
+
+#: functions.php:96
+#@ fixy
+msgid "Half Width Footer Widget Area"
+msgstr "ابزارک های نیم صفحه"
+
+#: functions.php:98
+#@ fixy
+msgid "Shows Widgets in Half Footer Area"
+msgstr "ابزارک های پانوشت را در نیمی از صفحه نمایش خواهد داد."
+
+#: functions.php:106
+#@ fixy
+msgid "OneThird Width Footer Widget Area"
+msgstr "ابزارک های یک سوم"
+
+#: functions.php:108
+#@ fixy
+msgid "Shows Widgets in OneThird Footer Area"
+msgstr "ابزارک های پانوشت را در یک سوم صفحه نمایش خواهد داد."
+
+#: functions.php:188
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i>"
+msgstr "<i class=\"icon-right-open\"></i>"
+
+#: functions.php:189
+#@ fixy
+msgid "<i class=\"icon-right-open\"></i>"
+msgstr "<i class=\"icon-left-open\"></i>"
+
+#: functions.php:199
+#@ fixy
+msgid "Profile"
+msgstr "پروفایل"
+
+#: functions.php:200
+#@ fixy
+msgid "Logout"
+msgstr "خروج"
+
+#: functions.php:205
+#@ fixy
+msgid "register"
+msgstr "عضویت"
+
+#: functions.php:205
+#@ fixy
+msgid "Register"
+msgstr "عضویت"
+
+#: functions.php:206
+#: lib/ajax-forms.php:12
+#@ fixy
+msgid "Login"
+msgstr "ورود"
+
+#: functions.php:242
+#@ fixy
+msgid "Sending user info, please wait..."
+msgstr "ارسال مشخصات کاربری، لطفا کمی صبر کنید..."
+
+#: functions.php:267
+#@ fixy
+msgid "Wrong username or password."
+msgstr "شناسه کاربری یا کلمه عبور صحیح نمی باشد."
+
+#: functions.php:269
+#@ fixy
+msgid "Login successful, redirecting..."
+msgstr "ورود با موفقیت انجام شد، بازگشت ..."
+
+#: functions.php:299
+#@ fixy
+msgid "Recommend to use on Sticky Widget Area"
+msgstr "توصیه می شود در بخش ابزارک های چسبنده فعال شود."
+
+#: functions.php:303
+#: functions.php:335
+#@ fixy
+msgid "Navigation"
+msgstr "راهنما"
+
+#: functions.php:340
+#@ fixy
+msgid "Title:"
+msgstr "عنوان : "
+
+#: functions.php:391
+#@ fixy
+msgid "Category "
+msgstr "دسته بندی"
+
+#: functions.php:393
+#: functions.php:411
+#: functions.php:431
+#@ fixy
+msgid "All"
+msgstr "همه"
+
+#: functions.php:409
+#@ fixy
+msgid "Tag "
+msgstr "برچسب"
+
+#: functions.php:429
+#@ fixy
+msgid "Author "
+msgstr "نویسنده"
+
+#: functions.php:449
+#@ fixy
+msgid "Date "
+msgstr "تاریخ"
+
+#: functions.php:452
+#@ fixy
+msgid "year"
+msgstr "سال"
+
+#: functions.php:453
+#@ fixy
+msgid "month"
+msgstr "ماه"
+
+#: functions.php:454
+#@ fixy
+msgid "day"
+msgstr "روز"
+
+#: functions.php:463
+#@ fixy
+msgid "Search for "
+msgstr "جستجو برای"
+
+#: functions.php:465
+#: functions.php:473
+#@ fixy
+msgid "Search"
+msgstr "جستجو"
+
+#: functions.php:478
+#@ fixy
+msgid "advance search"
+msgstr "جستجوی پیشرفته"
+
+#: header.php:54
+#@ fixy
+msgid "Menu"
+msgstr "فهرست"
+
+#: lib/comment-form.php:13
+#@ fixy
+msgid "Leave a Reply"
+msgstr "ارسال دیدگاه"
+
+#: lib/comment-form.php:14
+#, php-format
+#@ fixy
+msgid "Leave a Reply to %s"
+msgstr "ارسال یک دیدگاه برای  %s"
+
+#: lib/comment-form.php:15
+#@ fixy
+msgid "Cancel Reply<i class=\"icon-cancel\"></i>"
+msgstr "لغو دیدگاه <i class=\"icon-cancel\"></i>"
+
+#: lib/comment-form.php:16
+#@ fixy
+msgid "Post Comment"
+msgstr "ارسال دیدگاه"
+
+#: lib/comment-form.php:19
+#@ fixy
+msgid "your message"
+msgstr "پیغام شما"
+
+#: lib/comment-form.php:24
+#, php-format
+#@ fixy
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "جهت ارسال دیدگاه می بایست شما <a href=\"%s\">وارد</a> سایت شده باشید."
+
+#: lib/comment-form.php:30
+#, php-format
+#@ fixy
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "وارد شده به عنوان <a href=\"%1$s\">%2$s</a> . <a href=\"%3$s\" title=\"خروج از این اکانت\">خروج</a>"
+
+#: lib/comment-form.php:37
+#@ fixy
+msgid "Your email address will not be published."
+msgstr "آدرس ایمیل شما منتشر نخواهد شد."
+
+#: lib/comment-form.php:42
+#, php-format
+#@ fixy
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "شما می توانید از این تگهای <abbr title=\"HyperText Markup Language\">HTML</abbr> برای ارسال دیدگاه استفاده نمایید :%s"
+
+#: lib/comment-form.php:50
+#@ fixy
+msgid "<i class=\"icon-user\"></i> Name"
+msgstr "<i class=\"icon-user\"></i> نام"
+
+#: lib/comment-form.php:50
+#@ fixy
+msgid "yourname"
+msgstr "نام شما"
+
+#: lib/comment-form.php:56
+#@ fixy
+msgid "<i class=\"icon-mail-alt\"></i> Email"
+msgstr "<i class=\"icon-mail-alt\"></i> ایمیل"
+
+#: lib/comment-form.php:56
+#@ fixy
+msgid "yourname@example.com"
+msgstr ""
+
+#: lib/comment-form.php:63
+#@ fixy
+msgid "<i class=\"icon-link\"></i> Website"
+msgstr "<i class=\"icon-link\"></i> وب سایت / وبلاگ"
+
+#: lib/comment-form.php:64
+#@ fixy
+msgid "www.example.com"
+msgstr ""
+
+#: post-meta.php:25
+#, php-format
+#@ fixy
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "  %1$s در  %2$s"
+
+#: post-meta.php:31
+#, php-format
+#@ fixy
+msgid "Permalink to %s"
+msgstr "پیوند یکتا به %s"
+
+#: lib/post-meta.php:53
+#: lib/post-meta.php:65
+#: post-meta.php:53
+#: post-meta.php:65
+#@ fixy
+msgid " "
+msgstr ""
+
+#: search.php:21
+#, php-format
+#@ fixy
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای : %s"
+
+#: tag.php:19
+#, php-format
+#@ fixy
+msgid "Tag Archives: %s"
+msgstr "بایگانی برچسب : %s"
+
+#: functions.php:482
+#@ fixy
+msgid "cancel"
+msgstr "لغو"
+
+#: lib/comment-form.php:18
+#@ fixy
+msgid "<i class=\"icon-doc-text\"></i> Comment"
+msgstr "<i class=\"icon-doc-text\"></i> دیدگاه"
+
+#: functions.php:171
+#@ fixy
+msgid "... Read the full article"
+msgstr "...نمایش مطلب"
+
+#: single.php:20
+#, php-format
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i> %title"
+msgstr "<i class=\"icon-right-open\"></i> %title"
+
+#: single.php:21
+#, php-format
+#@ fixy
+msgid "%title <i class=\"icon-right-open\"></i>"
+msgstr "%title <i class=\"icon-left-open\"></i>"
+
+#: lib/ajax-forms.php:5
+#@ fixy
+msgid "close"
+msgstr "خروج"
+
+#: lib/ajax-forms.php:8
+#@ fixy
+msgid "Username"
+msgstr "شناسه کاربری"
+
+#: lib/ajax-forms.php:10
+#@ fixy
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: lib/ajax-forms.php:11
+#@ fixy
+msgid "Lost your password?"
+msgstr "کلمه عبور را فراموش کرده اید؟"
+
+#: lib/comment-form.php:8
+#@ fixy
+msgid "<span class=\"required\">Please fill the fields marked by <i class=\"icon-star\"></i></span>"
+msgstr "<span class=\"required\">لطفا فیلدهایی که با <i class=\"icon-star\"></i>نشانه گذاری شده  تکمیل نمایید</span>"
+
+#: footer.php:18
+#@ fixy
+msgid "Fixy WordPress theme by <a href=\"http://www.itstar.ir\">ITstar</a>, Copyright (C) 2013"
+msgstr ""
+
+#: functions.php:606
+#: functions.php:666
+#@ fixy
+msgid "Default"
+msgstr "پیش فرض"
+
+#: functions.php:718
+#@ fixy
+msgid "Fonts"
+msgstr "قلم ها"
+
+#: functions.php:736
+#@ fixy
+msgid "Headers Font"
+msgstr "قلم سرتیترها"
+
+#: functions.php:755
+#@ fixy
+msgid "Body Font"
+msgstr "قلم بدنه"
+
+#: functions.php:763
+#@ fixy
+msgid "Light"
+msgstr "روشن"
+
+#: functions.php:764
+#@ fixy
+msgid "Dark"
+msgstr "تیره"
+
+#: functions.php:768
+#@ fixy
+msgid "ColorFull"
+msgstr "رنگارنگ"
+
+#: functions.php:769
+#@ fixy
+msgid "Red"
+msgstr "قرمز"
+
+#: functions.php:770
+#@ fixy
+msgid "Blue"
+msgstr "آبی"
+
+#: functions.php:771
+#@ fixy
+msgid "Green"
+msgstr "سبز"
+
+#: functions.php:772
+#@ fixy
+msgid "Orange"
+msgstr "نارنجی"
+
+#: functions.php:773
+#@ fixy
+msgid "Violet"
+msgstr "بنفش"
+
+#: functions.php:774
+#@ fixy
+msgid "Pink"
+msgstr "صورتی"
+
+#: functions.php:775
+#@ fixy
+msgid "Dark Blue"
+msgstr "سرمه ای"
+
+#: functions.php:776
+#@ fixy
+msgid "Grey"
+msgstr "خاکستری"
+
+#: functions.php:781
+#@ fixy
+msgid "Theme Style"
+msgstr "رنگ بندی پوسته"
+
+#: functions.php:799
+#@ fixy
+msgid "Light or Dark?"
+msgstr "تیره یا روشن ؟"
+
+#: functions.php:818
+#@ fixy
+msgid "Colors Style"
+msgstr "رنگ بندی"
+
+#: content-chat.php:25
+#: content-link.php:21
+#: content.php:42
+#@ fixy
+msgid "... Read More"
+msgstr "... ادامه مطلب"
+
+#: functions.php:49
+#, php-format
+#@ fixy
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: functions.php:827
+#@ wordplus
+msgid "Archives Layout"
+msgstr ""
+
+#: functions.php:840
+#@ fixy
+msgid "Auto excerpt posts for Home and archive pages?"
+msgstr "آیا نوشته های به صورت خودکار خلاصه می شود؟"
+
+#: functions.php:844
+#@ fixy
+msgid "Yes"
+msgstr "بله"
+
+#: functions.php:845
+#@ fixy
+msgid "No, I will excerpt posts manualy"
+msgstr "نه، به صورت دستی خلاصه سازی می کنم"
+

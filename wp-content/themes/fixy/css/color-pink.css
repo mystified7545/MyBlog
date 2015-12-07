@@ -1,0 +1,21 @@
+/*
+Theme Name: Fixy
+Description: Pink Style Colors.
+Fixy WordPress theme, Copyright (C) 2013 ITstar. 
+*/
+
+a:hover, .secondary a:hover, .footer-area a:hover {
+color : rgb(255, 160, 245);
+}
+a, .edit-link a:hover, .post-meta .meta-author a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, article.single-format-link .post-title a#link-title, article.format-link .post-title a#link-title, a.site-title, .post-meta .meta-cat a:hover, .navigation-widget h3.widget-title:before, #ajax-login a.ajax-close:hover, .post-meta .meta-date a:hover, a.close-focus, .featured-post .icon-star, .post-meta .meta-comment a:hover, blockquote:before, q:before, .header-menu li a:hover, .header-menu .current_page_item > a, .header-menu .current_page_ancestor > a, .header-menu .current-menu-item > a, .header-menu .current-menu-ancestor > a, article.format-quote .post-content:before, article.single-format-quote .post-content:before, .post-meta .meta-tag a:hover {
+color : rgb(255, 110, 245);
+}
+blockquote, q, article.format-quote, article.format-chat, .post-meta .meta-tag a:hover, article.format-link, .post-meta .meta-cat a:hover, ol.comment-list li.bypostauthor > article.comment-body, article.format-aside, .post-meta .meta-comment a:hover, article.format-gallery, .post-meta .meta-date a:hover, article.format-image, article.format-audio, article.format-video, .header-menu li a:hover, .header-menu .current_page_item > a, .header-menu .current_page_ancestor > a, .header-menu .current-menu-item > a, .header-menu .current-menu-ancestor > a, .tag .archive-header, .search-results .page-header, .search-no-results .page-header, .author .archive-header, .author .author-info, .post-meta .meta-author a:hover, .category .archive-header, .error404 .page-header, .date .archive-header, .comments-title, .format-chat .post-content p, .format-chat .post-content p:nth-child(odd) {
+border-color :  rgb(255, 110, 245);
+}
+.post-meta .icon-comment, .comments-title .icon-comment, .post-meta .icon-user, .archive-header .icon-user, .search-results .page-header .icon-search, .search-no-results .icon-search, .archive .page-header .icon-search, .post-meta .icon-folder-open-empty, .archive-header .icon-folder-open-empty, .error404 .icon-attention, .post-meta .icon-calendar, .archive-header .icon-calendar, .post-meta .icon-tags, .archive-header .icon-tags {
+background-color :  rgb(255, 110, 245);
+}
+.banner a .icon-search:hover, .banner a .icon-user:hover, .banner a .icon-rss:hover {
+background-color : rgba(255, 110, 245, 0.6);
+}

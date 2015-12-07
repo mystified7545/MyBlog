@@ -1,0 +1,46 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+
+/* Internet Explorer 8 */
+.ie8 .site {
+	border: 0;
+}
+
+.ie8 img.size-full,
+.ie8 img.size-large {
+	height: auto;
+	width: auto;
+}
+
+/* Internet Explorer 7 */
+.ie7 audio,
+.ie7 canvas,
+.ie7 video {
+	display: inline;
+	zoom: 1;
+}
+
+.ie7 legend {
+	margin-left: -7px;
+}
+
+.ie7 button,
+.ie7 input,
+.ie7 select,
+.ie7 textarea {
+	vertical-align: middle;
+}
+
+.ie7 button,
+.ie7 input[type="button"],
+.ie7 input[type="reset"],
+.ie7 input[type="submit"] {
+	overflow: visible;
+}
+
+.ie7 input[type="checkbox"],
+.ie7 input[type="radio"] {
+	height: 13px;
+	width: 13px;
+}

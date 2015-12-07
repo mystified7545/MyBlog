@@ -1,0 +1,124 @@
+== Changelog ==
+
+= 1.2.7.6 [2015.02.18] =
+Maintenance Release
+
+* WordPress 4.1 `add_theme_support( 'title-tag' )` functionality added with the backward compatibility.
+* Changelog file `changelog.txt` added in the theme root for the convenience.
+* Contextual help removed from theme settings page.
+* `screen_icon` removed from theme settings page.
+* Screenshot size updated to 880x660.
+
+= 1.2.7.5 [2014.06.10] =
+Maintenance Release
+
+* Admin code updated to fix PHP notice.
+
+
+= 1.2.7.4 [2014.05.17] =
+WordPress 3.9 Revisions
+
+* Sane Defaults logic implemented.
+* Contango will not save default settings to the database without explicit user action, and it will function properly out-of-the-box without user configuration.
+
+
+= 1.2.7.3 [2014.03.14] =
+Security Enhancement Release
+
+* Escaping the missing HTML attributes.
+
+
+= 1.2.7.2 [2014.02.28] =
+Maintenance Release
+
+* New IDs and Classes introduced in HTML markup.
+* CSS updated.
+
+
+= 1.2.7.1 [2014.02.20] =
+Maintenance Release
+
+* New optimized CSS code for gallery.
+* CSS Tags updated.
+
+
+= 1.2.7 [2014.02.15] =
+Maintenance Release
+
+* Markup updated to HTML5.
+
+
+= 1.2.6 [2014.01.30] =
+Maintenance Release
+
+* CSS Reset has been updated.
+* CSS tweak settings has been made.
+
+
+= 1.2.5 [2013.12.20] =
+Maintenance Release
+
+* Full Width Template support has been added.
+* Tags in the style.css has been updated to support WordPress 3.8
+
+
+= 1.2.4 [2013.12.10] =
+Maintenance Release
+
+* Breadcrumbs support has been added.
+* Single Post and Pages are updated to support the breadcrumbs.
+* Supported Plugins
+  <ul>
+  * WordPress SEO by Yoast: http://wordpress.org/plugins/wordpress-seo/
+  * Breadcrumb NavXT: http://wordpress.org/plugins/breadcrumb-navxt/
+  </ul>
+
+
+= 1.2.3 [2013.12.05] =
+Maintenance Release
+
+* Custom Header logic has been updated.
+* Flexible width for custom header has been added to faciliate the header of any size.
+* Some CSS changes to control the display of flexible header.
+
+
+= 1.2.2 [2013.11.24] =
+Maintenance Release
+
+* HTML Markup has been updated to validate Google Authorship Structured Data. i.e. hatom-feed
+* Microformats "time" element has been added.
+* Support for popular SEO plugins has been added. i.e. All In One SEO Pack, WordPress SEO
+
+
+= 1.2.1 [2013.11.18] =
+Maintenance Release
+
+* Post Format support has been added.
+
+
+= 1.2 [2013.09.21] =
+Maintenance Release
+
+* Theme Options logic has been updated.
+
+
+= 1.1.1 [2013.06.26] =
+Maintenance Release
+
+* Code maintenance to avoid white screen on some hosting accounts while uploading custom header as reported by users.
+* Data sanitation has been improved.
+* Theme Options panel has been updated.
+
+
+= 1.1 [2013.06.02] =
+Maintenance Release
+
+* Superfish supports default menu drop down when there is no menu selected at "Primary Menu" theme location.
+* Primary Menu "depth" has been updated to five levels.
+* Layout of Older/Newer comments has been fixed.
+* Non Breaking text has been fixed in the content.
+* Theme Options panel has been updated.
+
+
+= 1.0 [2013.03.05] =
+Initial Release.

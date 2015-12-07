@@ -1,0 +1,108 @@
+/*
+Theme Name: Fixy
+Description: Main Colors.
+Fixy WordPress theme, Copyright (C) 2013 ITstar. 
+*/
+
+input[type="submit"], input[type="button"], input[type="reset"], nav.pagination a.page-numbers, span.page-numbers, .page-links span, nav.pagination span.page-links-title {
+color : #838383;
+background-color : #3F3F3F;
+border-color : #2D2D2D;
+}
+button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, nav.pagination a.page-numbers:hover, nav.pagination span.page-links-title:hover, .page-links span:hover {
+color : #A1A1A1;
+background-color : #535353;
+}
+button:active, input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+color : #8A8A8A;
+background-color : #1E1E1E;
+border-color : transparent;
+}
+table {
+border-color :rgb(32, 32, 32);
+}
+table th {
+background-color : rgb(42, 42, 42);
+}
+table tr:nth-child(odd), table#wp-calendar tr:nth-child(odd) {
+background-color : rgb(28, 28, 28);
+}
+table#wp-calendar tr {
+background-color : rgb(14, 14, 14);
+}
+button, input, textarea, select {
+border-color : rgb(45, 45, 45);
+}
+/*color*/
+.banner .icon-search, .banner .icon-user, .banner .icon-rss, article.single-format-link .icon-link, article.format-link .icon-link, a.focus, .post-meta .icon-user, .post-meta .icon-calendar, .post-meta .icon-folder-open-empty, .post-meta .icon-tags, .post-meta .icon-comment, .archive-header .icon-user, .archive-header .icon-calendar, .archive-header .icon-folder-open-empty, .archive-header .icon-tags, .comments-title .icon-comment, .search-results .page-header .icon-search, .error404 .icon-attention, .search-no-results .icon-search, .archive .page-header .icon-search, a#cancel-comment-reply-link .icon-cancel, .gallery-caption {
+color : rgb(255, 255, 255);
+}
+.login-panel .icon-login, .login-panel .icon-logout, .login-panel .icon-pencil, .login-panel .icon-user {
+color : rgb(255, 255, 255);
+}
+.archive-meta, .post-meta .meta-author a, .post-meta .meta-date a, .post-meta .meta-comment a, .post-meta .meta-cat a, .post-meta .meta-tag a, .secondary a, .footer-area a, .form-allowed-tags, .edit-link a {
+color : rgb(135, 135, 135);
+}
+body, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h2.site-description, .header-menu li a, ul.header-menu ul a, .header-menu ul ul a, .search-no-results .page-content p:first-child, .footer-area {
+color : rgb(204, 204, 204);
+}
+
+
+/*border*/
+.archive-header, .author-info, .search-results .page-header, .search-no-results .page-header, .error404 .page-header, .search-no-results .page-content p:first-child, .archive .page-content p:first-child {
+border-bottom-color : rgb(38, 38, 38);
+}
+.footer-widget {
+border-color : rgb(42, 42, 42);
+}
+.header-menu-bar, .special-search-form, .advance-search-slide, .secondary aside.side-widget, .header-menu .sub-menu li, .post-header, .post-header h1 a {
+border-bottom-color : rgb(52, 52, 52);
+}
+article, ol.comment-list li.comment article.comment-body {
+border-bottom-color : rgb(45, 45, 45);
+}
+.header-menu li > a, .header-menu li a {
+border-bottom-color : transparent;
+}
+.footer-area, .header-menu-bar, .site-credit {
+border-top-color : rgb(52, 52, 52);
+}
+
+
+/*background*/
+.main, article, #respond, form#ajax-login .form-inner {
+background-color : rgb(0, 0, 0);
+}
+.format-chat .post-content p:nth-child(odd) {
+background-color : rgb(14, 14, 14);
+}
+.footer-area, .format-chat .post-content p, .banner, .header-menu-bar, .advance-search-slide, .secondary aside.side-widget, .site-credit, ol.comment-list li.comment article.comment-body {
+background-color : rgb(18, 18, 18);
+}
+ol.comment-list li.bypostauthor > article.comment-body{
+background-color : rgb(25, 25, 25);
+}
+.header-menu .sub-menu, .header-menu .children {
+background-color : rgb(32, 32, 32);
+}
+a#cancel-comment-reply-link .icon-cancel, a.focus, a.close-focus {
+background-color : rgb(42, 42, 42);
+}
+article.single-format-link .icon-link, article.format-link .icon-link {
+background-color : rgb(45, 45, 45);
+}
+.banner .icon-search, .banner .icon-user, .banner .icon-rss {
+background-color : rgba(65, 65, 65, 0.6);
+}
+.gallery-caption {
+background-color : rgba(0, 0, 0, 0.4);
+}
+.iframe-temp-area{
+background-color : rgba(255, 255, 255, 0.4);
+}
+
+@media all and (max-width:435px) and (min-width:200px) {
+.header-menu .sub-menu, .header-menu .children {
+background-color : rgba(0,0,0,0);
+}
+}

@@ -1,0 +1,11 @@
+/* 
+Theme Name: Blog-Basic
+Theme URI: http://localhost/blogdemo
+Description: This is child theme for blog
+Author: Pratik Manandhar
+Author URI:
+Template: simple-Catch
+version: 0.1;
+*/
+
+@import url("../simple-catch/style.css");

@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fixy Child v0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-07 12:46:41+0000\n"
+"Last-Translator: lothman <lothar.manker@web.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:12
+#@ fixy
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: 404.php:13
+#@ fixy
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Das ist etwas peinlich, nicht wahr?"
+
+#: 404.php:14
+#@ fixy
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Es wurde nichts gefunden. Möchten Sie eine Suche starten?"
+
+#: archive.php:21
+#, php-format
+#@ fixy
+msgid " Daily Archives: %s"
+msgstr "Tägliche Archive: %s"
+
+#: archive.php:23
+#, php-format
+#@ fixy
+msgid " Monthly Archives: %s"
+msgstr "Monatliche Archive: %s"
+
+#: archive.php:23
+#@ fixy
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+#@ fixy
+msgid " Yearly Archives: %s"
+msgstr "Jährliche Archive: %s"
+
+#: archive.php:25
+#@ fixy
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:27
+#@ fixy
+msgid "Archives"
+msgstr "Archive"
+
+#: author.php:24
+#, php-format
+#@ fixy
+msgid " All posts by %s"
+msgstr "Alle Beiträge von %s"
+
+#: category.php:17
+#, php-format
+#@ fixy
+msgid "Category Archives: %s"
+msgstr "Kategorie Archive: %s"
+
+#: comments.php:18
+#, php-format
+#@ fixy
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+
+#: comments.php:29
+#@ fixy
+msgid "Reply<i class=\" icon-level-up\"></i>"
+msgstr "Antworten<i class=\" icon-level-up\"></i>"
+
+#: comments.php:35
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i> Older Comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:36
+#@ fixy
+msgid "Newer Comments <i class=\"icon-right-open\"></i>"
+msgstr "Neuere Kommentare"
+
+#: comments.php:41
+#@ fixy
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content-aside.php:13
+#: content-audio.php:33
+#: content-chat.php:29
+#: content-gallery.php:35
+#: content-image.php:40
+#: content-link.php:25
+#: content-quote.php:14
+#: content-status.php:15
+#: content-video.php:34
+#: content.php:46
+#: page.php:23
+#@ fixy
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-aside.php:18
+#: content-aside.php:21
+#: content-audio.php:37
+#: content-chat.php:32
+#: content-gallery.php:41
+#: content-image.php:43
+#: content-link.php:35
+#: content-quote.php:16
+#: content-status.php:18
+#: content-video.php:37
+#: content.php:49
+#: page.php:25
+#@ fixy
+msgid "<i class=\"icon-pencil\">Edit</i>"
+msgstr "<i class=\"icon-pencil\">Bearbeiten</i>"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#@ fixy
+msgid "Leave a comment"
+msgstr "Hinterlassen Sie einen Kommentar"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#@ fixy
+msgid "One comment so far"
+msgstr "Ein Kommentar bisher"
+
+#: content-aside.php:37
+#: content-quote.php:30
+#: lib/post-meta.php:46
+#@ fixy
+msgid "View all % comments"
+msgstr "Betrachten Sie alle % Kommentare"
+
+#: content-audio.php:14
+#: content-gallery.php:16
+#: content-image.php:15
+#: content-video.php:16
+#: content.php:15
+#@ fixy
+msgid "<i class=\"icon-star\">Featured</i>"
+msgstr "<i class=\"icon-star\">Empfohlen</i>"
+
+#: content-chat.php:25
+#: content-link.php:21
+#: content.php:42
+#@ fixy
+msgid "... Read More"
+msgstr "... weiterlesen"
+
+#: content-none.php:12
+#@ fixy
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: content-none.php:18
+#, php-format
+#@ fixy
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Wollen Sie Ihren ersten Beitrag schreiben? <a href=\"%1$s\">Beginnen Sie hier</a>."
+
+#: content-none.php:22
+#@ fixy
+msgid "<i class=\"icon-attention\"></i>Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "<i class=\"icon-attention\"></i>Keine Treffer. Bitte versuchen Sie es mit anderen Suchbegriffen."
+
+#: content-none.php:33
+#@ fixy
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nicht gefunden. Vielleicht könnte eine Suche helfen."
+
+#: footer.php:18
+#@ fixy
+msgid " Copyright (C)"
+msgstr ". Copyright Ⓒ "
+
+#: footer.php:18
+#@ fixy
+msgid " .All Rights Reserved."
+msgstr ". Alle Rechte vorbehalten."
+
+#: footer.php:19
+#@ fixy
+msgid "Powered by WordPress. Theme by "
+msgstr "Erstellt mit Wordpress. Thema von "
+
+#: functions.php:27
+#@ fixy
+msgid "Header Menu"
+msgstr "Header Menue"
+
+#: functions.php:50
+#, php-format
+#@ fixy
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:67
+#@ fixy
+msgid "Sidebar Widget Area"
+msgstr "Sidebar Widget"
+
+#: functions.php:69
+#@ fixy
+msgid "Widgets Area on Right Hand"
+msgstr "Rechte Seite Widget"
+
+#: functions.php:77
+#@ fixy
+msgid "Sticky Widget Area"
+msgstr "Sticky Widget"
+
+#: functions.php:79
+#@ fixy
+msgid "An Sticky Widget Area on top and bottom "
+msgstr "Sticky Widget Oben und Unten"
+
+#: functions.php:87
+#@ fixy
+msgid "Full Width Footer Widget Area"
+msgstr "Gesamtbreite Footer Widget"
+
+#: functions.php:89
+#@ fixy
+msgid "Shows Widgets in Full Footer Area"
+msgstr "Zeigt Widgets im gesamten Footer"
+
+#: functions.php:97
+#@ fixy
+msgid "Half Width Footer Widget Area"
+msgstr "Halbe Breite Footer Widget"
+
+#: functions.php:99
+#@ fixy
+msgid "Shows Widgets in Half Footer Area"
+msgstr "Zeigt Widgets im Footer mit halber Breite"
+
+#: functions.php:107
+#@ fixy
+msgid "OneThird Width Footer Widget Area"
+msgstr "Eindrittel Breite Footer Widget"
+
+#: functions.php:109
+#@ fixy
+msgid "Shows Widgets in OneThird Footer Area"
+msgstr "Zeigt Widgets im Footer mit eindrittel Breite"
+
+#: functions.php:175
+#@ fixy
+msgid "... Read the full article"
+msgstr "... Lesen Sie den ganzen Artikel"
+
+#: functions.php:192
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i>"
+msgstr "<i class=\"icon-left-open\"></i>"
+
+#: functions.php:193
+#@ fixy
+msgid "<i class=\"icon-right-open\"></i>"
+msgstr "<i class=\"icon-right-open\"></i>"
+
+#: functions.php:203
+#@ fixy
+msgid "Profile"
+msgstr "Profil"
+
+#: functions.php:204
+#@ fixy
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: functions.php:209
+#@ fixy
+msgid "register"
+msgstr "registrieren"
+
+#: functions.php:209
+#@ fixy
+msgid "Register"
+msgstr "Registrieren"
+
+#: functions.php:210
+#: lib/ajax-forms.php:12
+#@ fixy
+msgid "Login"
+msgstr "Einloggen"
+
+#: functions.php:246
+#@ fixy
+msgid "Sending user info, please wait..."
+msgstr "Informationen werden übertragen. Bitte warten ..."
+
+#: functions.php:271
+#@ fixy
+msgid "Wrong username or password."
+msgstr "Falscher Name oder Passwort."
+
+#: functions.php:273
+#@ fixy
+msgid "Login successful, redirecting..."
+msgstr "Login erfolgreich, Sie werden weitergeleitet ..."
+
+#: functions.php:303
+#@ fixy
+msgid "Recommend to use on Sticky Widget Area"
+msgstr "Empfohlen für den Sticky Widget Bereich"
+
+#: functions.php:307
+#: functions.php:339
+#@ fixy
+msgid "Navigation"
+msgstr "Navigation"
+
+#: functions.php:344
+#@ fixy
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions.php:395
+#@ fixy
+msgid "Category "
+msgstr "Kategorie "
+
+#: functions.php:397
+#: functions.php:415
+#: functions.php:435
+#@ fixy
+msgid "All"
+msgstr "Alle"
+
+#: functions.php:413
+#@ fixy
+msgid "Tag "
+msgstr "Schlagwort "
+
+#: functions.php:433
+#@ fixy
+msgid "Author "
+msgstr "Autor "
+
+#: functions.php:453
+#@ fixy
+msgid "Date "
+msgstr "Datum "
+
+#: functions.php:456
+#@ fixy
+msgid "year"
+msgstr "Jahr"
+
+#: functions.php:457
+#@ fixy
+msgid "month"
+msgstr "Monat"
+
+#: functions.php:458
+#@ fixy
+msgid "day"
+msgstr "Tag"
+
+#: functions.php:467
+#@ fixy
+msgid "Search for "
+msgstr "Suche nach "
+
+#: functions.php:469
+#: functions.php:477
+#@ fixy
+msgid "Search"
+msgstr "Suche"
+
+#: functions.php:482
+#@ fixy
+msgid "advance search"
+msgstr "Erweiterte Suche"
+
+#: functions.php:486
+#@ fixy
+msgid "cancel"
+msgstr "Abbrechen"
+
+#: functions.php:608
+#: functions.php:668
+#@ fixy
+msgid "Default"
+msgstr "Standard"
+
+#: functions.php:735
+#@ fixy
+msgid "Fonts"
+msgstr "Fonts"
+
+#: functions.php:754
+#@ fixy
+msgid "Headers Font"
+msgstr "Font der Kopfzeile"
+
+#: functions.php:774
+#@ fixy
+msgid "Body Font"
+msgstr "Font des Inhalts"
+
+#: functions.php:782
+#@ fixy
+msgid "Light"
+msgstr "Hell"
+
+#: functions.php:783
+#@ fixy
+msgid "Dark"
+msgstr "Dunkel"
+
+#: functions.php:787
+#@ fixy
+msgid "ColorFull"
+msgstr "Farbenfroh"
+
+#: functions.php:788
+#@ fixy
+msgid "Red"
+msgstr "Rot"
+
+#: functions.php:789
+#@ fixy
+msgid "Blue"
+msgstr "Blau"
+
+#: functions.php:790
+#@ fixy
+msgid "Green"
+msgstr "Grün"
+
+#: functions.php:791
+#@ fixy
+msgid "Orange"
+msgstr "Orange"
+
+#: functions.php:792
+#@ fixy
+msgid "Violet"
+msgstr "Violett"
+
+#: functions.php:793
+#@ fixy
+msgid "Pink"
+msgstr "Pink"
+
+#: functions.php:794
+#@ fixy
+msgid "Dark Blue"
+msgstr "Dunkelblau"
+
+#: functions.php:795
+#@ fixy
+msgid "Grey"
+msgstr "Grau"
+
+#: functions.php:800
+#@ fixy
+msgid "Theme Style"
+msgstr "Thema Stil"
+
+#: functions.php:818
+#@ fixy
+msgid "Light or Dark?"
+msgstr "Hell oder Dunkel?"
+
+#: functions.php:837
+#@ fixy
+msgid "Colors Style"
+msgstr "Farbstil"
+
+#: functions.php:846
+#@ wordplus
+msgid "Archives Layout"
+msgstr ""
+
+#: functions.php:859
+#@ fixy
+msgid "Auto excerpt posts for Home and archive pages?"
+msgstr "Excerpts für Home und Archive Seiten automatisch erstellen?"
+
+#: functions.php:863
+#: functions.php:891
+#: functions.php:919
+#@ fixy
+msgid "Yes"
+msgstr "Ja"
+
+#: functions.php:864
+#@ fixy
+msgid "No, I will excerpt posts manualy"
+msgstr "Nein, Excerpts manuell erstellen"
+
+#: functions.php:874
+#@ fixy
+msgid "Links"
+msgstr "Links"
+
+#: functions.php:887
+#@ fixy
+msgid "show External Links in iframe? "
+msgstr "Externe Links in einem iFrame anzeigen?"
+
+#: functions.php:892
+#: functions.php:920
+#@ fixy
+msgid "No"
+msgstr "Nein"
+
+#: functions.php:902
+#@ fixy
+msgid "Lazy Content"
+msgstr "Langsamer Inhalt"
+
+#: functions.php:915
+#@ fixy
+msgid "Enable Lazy Content Effects "
+msgstr "Langsame Inhaltseffekte aktivieren"
+
+#: lib/ajax-forms.php:5
+#@ fixy
+msgid "close"
+msgstr "Schliessen"
+
+#: lib/ajax-forms.php:8
+#@ fixy
+msgid "Username"
+msgstr "Name"
+
+#: lib/ajax-forms.php:10
+#@ fixy
+msgid "Password"
+msgstr "Passwort"
+
+#: lib/ajax-forms.php:11
+#@ fixy
+msgid "Lost your password?"
+msgstr "Passwort vergessen?"
+
+#: lib/comment-form.php:8
+#@ fixy
+msgid "<span class=\"required\">Please fill the fields marked by <i class=\"icon-star\"></i></span>"
+msgstr "<span class=\"required\">Bitte füllen Sie die markierten Felder aus <i class=\"icon-star\"></i></span>"
+
+#: lib/comment-form.php:13
+#@ fixy
+msgid "Leave a Reply"
+msgstr "Hinterlassen Sie eine Antwort"
+
+#: lib/comment-form.php:14
+#, php-format
+#@ fixy
+msgid "Leave a Reply to %s"
+msgstr "Hinterlassen Sie eine Antwort an %s"
+
+#: lib/comment-form.php:15
+#@ fixy
+msgid "Cancel Reply<i class=\"icon-cancel\"></i>"
+msgstr "Antwort abbrechen<i class=\"icon-cancel\"></i>"
+
+#: lib/comment-form.php:16
+#@ fixy
+msgid "Post Comment"
+msgstr "Kommentar verfassen"
+
+#: lib/comment-form.php:18
+#@ fixy
+msgid "<i class=\"icon-doc-text\"></i> Comment"
+msgstr "<i class=\"icon-doc-text\"></i> Kommentar"
+
+#: lib/comment-form.php:19
+#@ fixy
+msgid "your message"
+msgstr "Ihre Nachricht"
+
+#: lib/comment-form.php:24
+#, php-format
+#@ fixy
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Sie müssen sich <a href=\"%s\">anmelden</a> um einen Kommentar zu verfassen."
+
+#: lib/comment-form.php:30
+#, php-format
+#@ fixy
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Angemeldet als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Abmelden?</a>"
+
+#: lib/comment-form.php:37
+#@ fixy
+msgid "Your email address will not be published."
+msgstr "Ihre Email-Adresse wird nicht veröffentlicht."
+
+#: lib/comment-form.php:42
+#, php-format
+#@ fixy
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Sie können diese <abbr title=\"HyperText Markup Language\">HTML</abbr> Befehle verwenden: %s"
+
+#: lib/comment-form.php:50
+#@ fixy
+msgid "<i class=\"icon-user\"></i> Name"
+msgstr "<i class=\"icon-user\"></i> Name"
+
+#: lib/comment-form.php:50
+#@ fixy
+msgid "yourname"
+msgstr "Ihr Name"
+
+#: lib/comment-form.php:56
+#@ fixy
+msgid "<i class=\"icon-mail-alt\"></i> Email"
+msgstr "<i class=\"icon-mail-alt\"></i> Email"
+
+#: lib/comment-form.php:56
+#@ fixy
+msgid "yourname@example.com"
+msgstr "ihrname@beispiel.de"
+
+#: lib/comment-form.php:63
+#@ fixy
+msgid "<i class=\"icon-link\"></i> Website"
+msgstr "<i class=\"icon-link\"></i> Webseite"
+
+#: lib/comment-form.php:64
+#@ fixy
+msgid "www.example.com"
+msgstr "www.beispiel.de"
+
+#: lib/post-meta.php:53
+#: lib/post-meta.php:65
+#@ fixy
+msgid " "
+msgstr " "
+
+#: search.php:21
+#, php-format
+#@ fixy
+msgid "Search Results for: %s"
+msgstr "Such-Ergebnisse für: %s"
+
+#: single.php:20
+#, php-format
+#@ fixy
+msgid "<i class=\"icon-left-open\"></i> %title"
+msgstr "<i class=\"icon-left-open\"></i> %title"
+
+#: single.php:21
+#, php-format
+#@ fixy
+msgid "%title <i class=\"icon-right-open\"></i>"
+msgstr "%title <i class=\"icon-right-open\"></i>"
+
+#: tag.php:19
+#, php-format
+#@ fixy
+msgid "Tag Archives: %s"
+msgstr "Schlagwörter Archive: %s"
+

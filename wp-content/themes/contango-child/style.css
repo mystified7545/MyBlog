@@ -1,0 +1,12 @@
+/*
+Theme Name: contango-child
+Description: Child theme for InnoculateIT
+Author: Pratik Manandhar
+Template: contango
+*/
+
+@import url('../contango/style.css');
+
+#logo-image{
+    background-image: url('../contango/images/headers/Abstract-Header.jpg');
+}

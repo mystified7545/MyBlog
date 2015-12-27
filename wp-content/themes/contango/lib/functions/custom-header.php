@@ -23,7 +23,7 @@ register_default_headers( array(
 	'contango' => array(
 		'url' => '%s/images/headers/header-default.png',
 		'thumbnail_url' => '%s/images/headers/header-default-thumb.png',
-		'description' => __( 'Contango', 'contango' )
+		'description' => __('Contango', 'contango' )
 	)
 
 ) );

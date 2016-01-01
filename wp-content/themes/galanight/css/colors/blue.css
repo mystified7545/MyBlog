@@ -1,0 +1,45 @@
+/* Color scheme Blue
+----------------------------------------------- */
+body .post-entry .read-more-button,
+body input[type="submit"],
+body input[type="reset"],
+body .header-image .header-image-text .header-image-link,
+body .footer-signature {
+  background-color: #437bd0;                                   
+}
+body .menu-box ul ul,
+body .menu-panel ul ul,
+body .post-entry .read-more-button,
+body input[type="submit"],
+body input[type="reset"],
+body .header-image .header-image-text .header-image-link,
+body #wrapper-footer {
+  border-color: #437bd0;                     
+}
+body a,
+body .site-title a,
+body .menu-box a:hover,
+body .menu-box :hover > a,
+body #wrapper-header .menu-box .current-menu-item > a,
+body #wrapper-header .menu-box .current-menu-ancestor > a,
+body #wrapper-header .menu-box .current_page_item > a,
+body #wrapper-header .menu-box .current-page-ancestor > a,
+body .menu-panel a:hover,
+body .menu-panel :hover > a,
+body #wrapper-header .menu-panel .current-menu-item > a,
+body #wrapper-header .menu-panel .current-menu-ancestor > a,
+body #wrapper-header .menu-panel .current_page_item > a,
+body #wrapper-header .menu-panel .current-page-ancestor > a,
+body .post-entry .post-entry-headline a,
+body .sidebar-widget a {
+  color: #437bd0;       
+}
+body .post-entry .read-more-button:hover,
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body #searchform .searchform-wrapper .send:hover {
+  color: #437bd0 !important;                                   
+}
+body .footer-signature .footer-signature-content a {
+  color: #c1d7f8;                     
+}

@@ -1,0 +1,70 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(09/10/2015) - Update - Version 1.1.4
+
+[+] Added Danish translation.
+[*] Updated the TGM Plugin Activation to the version 2.5.2.
+[!] Fixed problem with floating of the Reply form in the Comments section.
+
+----
+
+(24/07/2015) - Update - Version 1.1.3
+
+[*] Updated the TGM Plugin Activation to the version 2.4.2.
+[*] Updated German translation.
+[*] Increased height of the responsive drop-down menu.
+[*] Specified a recommended height of the Header Image.
+
+----
+
+(04/04/2015) - Update - Version 1.1.2
+
+[+] Added Turkish translation.
+[+] Added support for the "pingback" link in <head> section.
+[*] Updated Czech translation.
+[*] Updated the list of available Google fonts (corrected nonfunctional fonts).
+
+----
+
+(24/02/2015) - Update - Version 1.1.1
+
+[+] Added Dutch translation.
+[+] Added ability to use the "nextpage" tag on pages.
+[*] Updated Spanish translation.
+
+----
+
+(17/01/2015) - Update - Version 1.1.0
+
+[+] Added Italian translation.
+[*] Updated including of the TGM_Plugin_Activation class (only the users who are allowed to install plugins can see it now).
+
+----
+
+(10/01/2015) - Update - Version 1.0.2
+
+[+] Added support for the Title Tag feature.
+[*] Used wp_add_inline_style for the Theme Options output.
+[*] Updated paginate_links() arguments (added "add_args").
+[*] Updated editor-style.css.
+
+----
+
+(08/12/2014) - Update - Version 1.0.1
+
+[*] Internationalized all text strings in Theme Options.
+[*] Updated POT catalog.
+[*] Updated language localizations.
+
+----
+
+(12/11/2014) - The initial public release - Version 1.0.0

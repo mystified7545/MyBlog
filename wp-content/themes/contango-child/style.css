@@ -7,6 +7,10 @@ Template: Contango
 
 @import url('../contango/style.css');
 
-#logo-image{
-    background-image: url('../contango/images/headers/Abstract-Header.jpg');
+/*
+#logo-image img{
+
+    content:url('../contango/images/headers/Abstract-Header.jpg');
 }
+*/
+

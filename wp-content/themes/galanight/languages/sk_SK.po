@@ -1,0 +1,1236 @@
+# Translation of the WordPress theme GalaNight 1.0 by Tomas Toman.
+# This file is distributed under the same license as the GalaNight package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GalaNight 1.0\n"
+"POT-Creation-Date: 2014-11-08 15:04+0100\n"
+"PO-Revision-Date: 2014-12-08 08:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tomas Toman <webdesign@tomastoman.cz>\n"
+"Language: Slovenčina\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:13 search.php:45
+msgid "Nothing Found"
+msgstr "Nič nenájdené"
+
+#: 404.php:17
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Ospravedlňujem sa, ale neboli nájdené žiadne výsledky pre vašu žiadosť. Snáď "
+"hľadanie vám pomôže nájsť súvisiaci obsah."
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Archív dňa: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Archív mesiaca: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Archív roka: %s"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "Archív"
+
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Archív autora: %s"
+
+#: class-tgm-plugin-activation.php:156
+msgid "Install Required Plugins"
+msgstr "Inštalácia požadovaných Modulov"
+
+#: class-tgm-plugin-activation.php:157 functions.php:359
+msgid "Install Plugins"
+msgstr "Inštalovať Moduly"
+
+#: class-tgm-plugin-activation.php:158 functions.php:363
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Inštalácia Modulu: %s"
+
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Niečo sa pokazilo."
+
+#: class-tgm-plugin-activation.php:170
+msgid "Return to Required Plugins Installer"
+msgstr "Späť na Inštaláciu požadovaných Modulov"
+
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Späť na nástenku"
+
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1837
+msgid "Plugin activated successfully."
+msgstr "Modul bol úspešne aktivovaný."
+
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1535
+msgid "The following plugin was activated successfully:"
+msgstr "Nasledujúci Modul bol úspešne aktivovaný:"
+
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všetky moduly boli úspešne nainštalované a aktivované. %1$s"
+
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Odstrániť toto upozornenie"
+
+#: class-tgm-plugin-activation.php:1083
+msgid "External Link"
+msgstr "Externý odkaz"
+
+#: class-tgm-plugin-activation.php:1088
+msgid "Private Repository"
+msgstr "Vlastné zložka"
+
+#: class-tgm-plugin-activation.php:1091
+msgid "Pre-Packaged"
+msgstr "Predpripravené"
+
+#: class-tgm-plugin-activation.php:1095
+msgid "WordPress Repository"
+msgstr "WordPress adresár"
+
+#: class-tgm-plugin-activation.php:1098
+msgid "Required"
+msgstr "Vyžadovaný"
+
+#: class-tgm-plugin-activation.php:1098
+msgid "Recommended"
+msgstr "Odporúčaný"
+
+#: class-tgm-plugin-activation.php:1101
+msgid "Not Installed"
+msgstr "Nie je nainštalovaný"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Installed But Not Activated"
+msgstr "Nainštalované, ale nie je aktivovaný"
+
+#: class-tgm-plugin-activation.php:1273
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Žiadne Moduly na inštaláciu alebo aktiváciu. <a href=\"%1$s\" title=\"Späť "
+"na nástenku\">Späť na nástenku</a>"
+
+#: class-tgm-plugin-activation.php:1289
+msgid "Plugin"
+msgstr "Modul"
+
+#: class-tgm-plugin-activation.php:1290
+msgid "Source"
+msgstr "Zdroj"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Status"
+msgstr "Štatút"
+
+#: class-tgm-plugin-activation.php:1310
+msgid "Install"
+msgstr "Inštalovať"
+
+#: class-tgm-plugin-activation.php:1311
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: class-tgm-plugin-activation.php:1820
+msgid "Install package not available."
+msgstr "Inštalačný balíček nie je k dispozícii."
+
+#: class-tgm-plugin-activation.php:1821
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Sťahovanie inštalačného balíka z <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1822
+msgid "Unpacking the package&#8230;"
+msgstr "Rozbaľovanie balíčka&#8230;"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Installing the plugin&#8230;"
+msgstr "Inštalácia Modulu&#8230;"
+
+#: class-tgm-plugin-activation.php:1824
+msgid "Plugin install failed."
+msgstr "Inštalácia Modulu sa nepodarila."
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Plugin installed successfully."
+msgstr "Modul bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1836
+msgid "Plugin activation failed."
+msgstr "Aktivácia Modulu sa nepodarila."
+
+#: class-tgm-plugin-activation.php:1946
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces inštalácie a aktivácie bol zahájený. Tento proces môže chvíľu trvať "
+"na niektorých počítačoch, takže buďte prosím trpezliví."
+
+#: class-tgm-plugin-activation.php:1947
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s Modul bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1947 class-tgm-plugin-activation.php:1956
+msgid "Show Details"
+msgstr "Zobraziť podrobnosti"
+
+#: class-tgm-plugin-activation.php:1947 class-tgm-plugin-activation.php:1956
+msgid "Hide Details"
+msgstr "Skryť podrobnosti"
+
+#: class-tgm-plugin-activation.php:1948
+msgid "All installations and activations have been completed."
+msgstr "Všetky inštalácie a aktivácie boli dokončené."
+
+#: class-tgm-plugin-activation.php:1949
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Inštalácia a aktivácia Modulu %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1953
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces inštalácie bol zahájený. Tento proces môže chvíľu trvať na niektorých "
+"počítačoch, takže buďte prosím trpezliví."
+
+#: class-tgm-plugin-activation.php:1954
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Došlo k chybe pri inštalácii %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:1955
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Inštalácia %1$s zlyhala."
+
+#: class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1957
+msgid "All installations have been completed."
+msgstr "Všetky inštalácie boli dokončené."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Inštalácia Modulu %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2049
+msgid "Return to the Dashboard"
+msgstr "Späť na nástenku"
+
+#: comments.php:15
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Komentár"
+msgstr[1] "%1$s Komentáre"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; Staršie komentáre"
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "Novšie komentáre &rarr;"
+
+#: comments.php:31
+msgid "Comments are closed."
+msgstr "Pridávanie komentárov bolo ukončené."
+
+#: comments.php:36
+msgid "Your name"
+msgstr "Vaše meno"
+
+#: comments.php:37
+msgid "Website"
+msgstr "Web"
+
+#: comments.php:38
+msgid "Comment..."
+msgstr "Komentár..."
+
+#: comments.php:42
+msgid "Leave a Comment"
+msgstr "Napísať komentár"
+
+#: functions.php:80
+msgid "<p>Loading...</p>"
+msgstr "<p>Načítavam...</p>"
+
+#: functions.php:81
+msgid "<p>No further posts.</p>"
+msgstr "<p>Žiadne ďalšie články.</p>"
+
+#: functions.php:121
+msgid "Main Header Menu"
+msgstr "Hlavná navigácia v záhlaví"
+
+#: functions.php:131
+msgid "Right Sidebar"
+msgstr "Hlavný Sidebar"
+
+#: functions.php:133
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "Pravý postranný panel, ktorý sa objaví pri všetkých stránok a článkov."
+
+#: functions.php:140
+msgid "Footer left widget area"
+msgstr "Ľavá oblasť pre widgety v päte"
+
+#: functions.php:142
+msgid "Left column with widgets in footer."
+msgstr "Ľavý panel s widgety v päte."
+
+#: functions.php:149
+msgid "Footer middle widget area"
+msgstr "Prostredná oblasť pre widgety v päte"
+
+#: functions.php:151
+msgid "Middle column with widgets in footer."
+msgstr "Prostredný panel s widgety v päte."
+
+#: functions.php:158
+msgid "Footer right widget area"
+msgstr "Pravá oblasť pre widgety v päte"
+
+#: functions.php:160
+msgid "Right column with widgets in footer."
+msgstr "Pravý panel s widgety v päte."
+
+#: functions.php:167
+msgid "Footer notices"
+msgstr "Informácie v päte"
+
+#: functions.php:169
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"Riadok pre informácie o autorstvo a ďalšie poznámky pod panelom pre widgety "
+"v päte. Vložte sem jeden textový widget. Pole \"Nadpis\" by u tohto widgetu "
+"malo zostať prázdne."
+
+#: functions.php:191
+msgid "Read more"
+msgstr "Čítať viac"
+
+#: functions.php:204
+msgid "Post navigation"
+msgstr "Navigácia medzi článkami"
+
+#: functions.php:212 search.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Predchádzajúci"
+
+#: functions.php:213 search.php:32
+msgid "Next &rarr;"
+msgstr "Nasledujúci &rarr;"
+
+#: functions.php:234
+msgid "&larr; Previous post"
+msgstr "&larr; Predchádzajúci článok"
+
+#: functions.php:236
+msgid "Next post &rarr;"
+msgstr "Nasledujúci článok &rarr;"
+
+#: functions.php:254
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:254 page.php:20 single.php:35 template-full-width.php:21
+#: template-landing-page.php:20 template-without-title.php:18
+msgid "(Edit)"
+msgstr "(Upraviť)"
+
+#: functions.php:267
+msgid "(Post author)"
+msgstr "(Autor článku)"
+
+#: functions.php:273
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+#: functions.php:279
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentár čaká na moderovanie."
+
+#: functions.php:285
+msgid "Reply"
+msgstr "Odpovedať"
+
+#: functions.php:287
+msgid "Edit"
+msgstr "Upraviť"
+
+#: functions.php:358
+msgid "Install Recommended Plugins"
+msgstr "Inštalácia odporúčaných Modulov"
+
+#: functions.php:360
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s Modul je vyžadovaný pre túto tému. Kliknite na veľké modré tlačidlo "
+"nižšie k inštalácii a aktivácii %1$s."
+
+#: functions.php:361
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"%1$s je nainštalovaný, ale v súčasnej dobe neaktívný. Prosím, prejdite na <a "
+"href=\"%2$s\">stránku administrácie Modulov</a> pre jeho aktiváciu."
+
+#: functions.php:362
+#, php-format
+msgid "Install %s Now"
+msgstr "Nainštalovať %s teraz"
+
+#: functions.php:364
+msgid "Something went wrong with the plugin API."
+msgstr "Niečo je zle s API Modulu."
+
+#: functions.php:365
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Táto téma vyžaduje inštaláciu Modulu %1$s. <a href=\"%2$s\"><strong>Kliknite "
+"sem pre spustenie procesu inštalácie</strong></a>. Môžete byť požiadaní o "
+"FTP poverenia na základe nastavenia vášho servera."
+
+#: functions.php:366
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Je nám ľúto, ale nemáte dostatočné oprávnenie na inštaláciu %s Modulu. "
+"Obráťte sa na správcu tohto webu so žiadosťou o pomoc s inštaláciou Modulu."
+
+#: functions.php:367
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Táto téma vyžaduje inštaláciu Modulu %1$s.  Tento modul je v súčasnosti "
+"neaktívny, a tak prosím prejdite na stránku <a href=\"%2$s\">administrácie "
+"Modulov</a> a aktivujte ho."
+
+#: functions.php:368
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Je nám ľúto, ale nemáte dostatočné oprávnenie na aktiváciu %s Modulu. "
+"Obráťte sa na správcu tohto webu so žiadosťou o pomoc s aktiváciou Modulu."
+
+#: functions.php:369
+msgid "Return to Recommended Plugins Installer"
+msgstr "Späť na Inštaláciu odporúčaných Modulov"
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhľadávania pre: %s"
+
+#: search.php:17
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Počet výsledkov</strong>: "
+
+#: search.php:23
+msgid "Search results navigation"
+msgstr "Navigácia medzi výsledkami vyhľadávania"
+
+#: search.php:49
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Je nám ľúto, ale Vašim kritériám nevyhovuje žiadny výsledok. Skúste to znova "
+"s iným vyhľadávacím dotazom."
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Hľadať..."
+
+#: single.php:36
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Archív značky: %s"
+
+#: functions/be/fw-options.php:237
+#, fuzzy
+msgid "GalaNight Options"
+msgstr "GalaNight Posts-List"
+
+#: functions/be/fw-options.php:248
+msgid "<i class=\"icon_house\" aria-hidden=\"true\"></i>Welcome"
+msgstr ""
+
+#: functions/be/fw-options.php:255
+msgid "<i class=\"icon_key\" aria-hidden=\"true\"></i>General Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:262
+msgid "<i class=\"icon_cog\" aria-hidden=\"true\"></i>Header"
+msgstr ""
+
+#: functions/be/fw-options.php:269
+msgid "<i class=\"icon_documents\" aria-hidden=\"true\"></i>Posts/Pages"
+msgstr ""
+
+#: functions/be/fw-options.php:276
+msgid "<i class=\"icon_tags\" aria-hidden=\"true\"></i>Post Entries"
+msgstr ""
+
+#: functions/be/fw-options.php:283
+msgid "<i class=\"icon_pens\" aria-hidden=\"true\"></i>Fonts"
+msgstr ""
+
+#: functions/be/fw-options.php:290
+msgid "<i class=\"icon_tools\" aria-hidden=\"true\"></i>Other Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:296
+msgid "<i class=\"icon_cart\" aria-hidden=\"true\"></i>GET PREMIUM"
+msgstr ""
+
+#: functions/be/fw-options.php:319
+#, fuzzy
+msgid "Welcome to GalaNight!"
+msgstr "GalaNight"
+
+#: functions/be/fw-options.php:323
+msgid ""
+"First of all, I would like to thank you for choosing GalaNight! I firmly "
+"believe that you will be satisfied with this theme. In case of any problems "
+"or doubts, you can use the <a href=\"http://www.tomastoman.cz/support\" "
+"target=\"_blank\">GalaNight Official Support</a> (in English, German or "
+"Czech)."
+msgstr ""
+
+#: functions/be/fw-options.php:326
+#, fuzzy
+msgid "About GalaNight"
+msgstr "GalaNight"
+
+#: functions/be/fw-options.php:330
+msgid ""
+"GalaNight is an easily customizable theme which can be used for your Blog, "
+"Magazine, Business, eCommerce or Events website. It is a fully responsive "
+"and Retina ready theme that allows for easy viewing on any device."
+msgstr ""
+
+#: functions/be/fw-options.php:345
+#, fuzzy
+msgid "General Settings"
+msgstr "Obnovenie všetkých nastavení"
+
+#: functions/be/fw-options.php:349
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/be/fw-options.php:350
+msgid ""
+"Select one of the preconfigured Color Schemes. In Premium version, you can "
+"build your custom color scheme."
+msgstr ""
+
+#: functions/be/fw-options.php:354
+msgid "Turquoise (default)"
+msgstr ""
+
+#: functions/be/fw-options.php:355
+msgid "Blue"
+msgstr ""
+
+#: functions/be/fw-options.php:356
+msgid "Red"
+msgstr ""
+
+#: functions/be/fw-options.php:359
+msgid "Layout Style"
+msgstr ""
+
+#: functions/be/fw-options.php:360
+msgid "Choose the layout style of your website."
+msgstr ""
+
+#: functions/be/fw-options.php:364 functions/be/fw-options.php:472
+msgid "Wide"
+msgstr ""
+
+#: functions/be/fw-options.php:365
+msgid "Boxed"
+msgstr ""
+
+#: functions/be/fw-options.php:368
+msgid "Display Breadcrumb Navigation"
+msgstr ""
+
+#: functions/be/fw-options.php:369
+msgid ""
+"Set the Breadcrumb Navigation to be visible or not. The Breadcrumb NavXT "
+"plugin has to be installed for displaying it."
+msgstr ""
+
+#: functions/be/fw-options.php:373 functions/be/fw-options.php:382
+#: functions/be/fw-options.php:407 functions/be/fw-options.php:438
+#: functions/be/fw-options.php:447 functions/be/fw-options.php:624
+#: functions/be/fw-options.php:633 functions/be/fw-options.php:642
+#: functions/be/fw-options.php:649 functions/be/fw-options.php:680
+#: functions/be/fw-options.php:715 functions/be/fw-options.php:758
+msgid "Display"
+msgstr ""
+
+#: functions/be/fw-options.php:374 functions/be/fw-options.php:383
+#: functions/be/fw-options.php:408 functions/be/fw-options.php:439
+#: functions/be/fw-options.php:448 functions/be/fw-options.php:625
+#: functions/be/fw-options.php:634 functions/be/fw-options.php:643
+#: functions/be/fw-options.php:681 functions/be/fw-options.php:716
+#: functions/be/fw-options.php:759
+msgid "Hide"
+msgstr ""
+
+#: functions/be/fw-options.php:377
+msgid "Display Scroll-top Button"
+msgstr ""
+
+#: functions/be/fw-options.php:378
+msgid "Set the scroll-top button to be visible or not."
+msgstr ""
+
+#: functions/be/fw-options.php:386
+msgid "Favicon URL"
+msgstr ""
+
+#: functions/be/fw-options.php:387
+msgid ""
+"Upload your own favicon image (16x16px) or directly insert its URL. You can "
+"create your own favicon using <a href=\"http://www.favicon.cc/\" target="
+"\"_blank\">Favicon generator</a>."
+msgstr ""
+
+#: functions/be/fw-options.php:392
+#, fuzzy
+msgid "Background Settings"
+msgstr "Veľkosť obrázku v pozadí:"
+
+#: functions/be/fw-options.php:396
+#, fuzzy
+msgid "Background Image Size"
+msgstr "Veľkosť obrázku v pozadí:"
+
+#: functions/be/fw-options.php:397 functions/be/fw-options.php:534
+#: functions/be/fw-options.php:540 functions/be/fw-options.php:546
+#: functions/be/fw-options.php:647 functions/be/fw-options.php:653
+#: functions/be/fw-options.php:659 functions/be/fw-options.php:665
+#: functions/be/fw-options.php:720
+msgid "This feature is available only in Premium version."
+msgstr ""
+
+#: functions/be/fw-options.php:399
+msgid "Auto"
+msgstr "Automatická"
+
+#: functions/be/fw-options.php:402
+#, fuzzy
+msgid "Background Pattern"
+msgstr "Veľkosť obrázku v pozadí:"
+
+#: functions/be/fw-options.php:403
+msgid ""
+"Set the main background pattern (hatches) to be visible or not. This option "
+"works only in the Boxed layout style."
+msgstr ""
+
+#: functions/be/fw-options.php:411
+#, fuzzy
+msgid "Background Pattern Opacity"
+msgstr "Veľkosť obrázku v pozadí:"
+
+#: functions/be/fw-options.php:412
+msgid ""
+"Select transparency of the main background pattern (10 = greatest "
+"transparency, 100 = opaque background pattern). This option works only in "
+"the Boxed layout style."
+msgstr ""
+
+#: functions/be/fw-options.php:416
+msgid "Default"
+msgstr ""
+
+#: functions/be/fw-options.php:429
+msgid "Sidebar Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:433
+msgid "Display Sidebar on Posts/Pages"
+msgstr ""
+
+#: functions/be/fw-options.php:434
+#, fuzzy
+msgid ""
+"Set the right sidebar to be visible or not on the single posts and pages."
+msgstr "Pravý postranný panel, ktorý sa objaví pri všetkých stránok a článkov."
+
+#: functions/be/fw-options.php:442
+msgid "Display Sidebar on Archives"
+msgstr ""
+
+#: functions/be/fw-options.php:443
+msgid ""
+"Set the right sidebar to be visible or not on the archive pages (including "
+"all archives, homepage and search results)."
+msgstr ""
+
+#: functions/be/fw-options.php:463
+#, fuzzy
+msgid "Header Settings"
+msgstr "Slideshow v záhlaví"
+
+#: functions/be/fw-options.php:467
+msgid "Header Layout"
+msgstr ""
+
+#: functions/be/fw-options.php:468
+msgid "Set the layout of your Site Title and the Main Header Menu."
+msgstr ""
+
+#: functions/be/fw-options.php:473
+msgid "Centered"
+msgstr ""
+
+#: functions/be/fw-options.php:476
+#, fuzzy
+msgid "Display Header Image"
+msgstr "Nahrať obrázok"
+
+#: functions/be/fw-options.php:477
+msgid ""
+"Set the <a href=\"themes.php?page=custom-header\">Header Image</a> to be "
+"visible on all pages or only on the homepage."
+msgstr ""
+
+#: functions/be/fw-options.php:481
+msgid "Everywhere"
+msgstr ""
+
+#: functions/be/fw-options.php:482
+msgid "Only on Homepage"
+msgstr ""
+
+#: functions/be/fw-options.php:483
+msgid "Everywhere except Homepage"
+msgstr ""
+
+#: functions/be/fw-options.php:486
+msgid "Title Box/Logo width"
+msgstr ""
+
+#: functions/be/fw-options.php:487
+msgid ""
+"Set the width of your Site Title or Logo in header (percentages due to the "
+"page width). This option is needed only for the Wide Header Layout."
+msgstr ""
+
+#: functions/be/fw-options.php:504
+msgid "Menu Box width"
+msgstr ""
+
+#: functions/be/fw-options.php:505
+msgid ""
+"Set the width of your Main Header Menu (percentages due to the page width). "
+"This option is needed only for the Wide Header Layout."
+msgstr ""
+
+#: functions/be/fw-options.php:522
+msgid "Logo URL"
+msgstr ""
+
+#: functions/be/fw-options.php:523
+msgid ""
+"Upload your own logo in .jpg, .gif or .png format or directly insert its "
+"URL. The logo will automatically replace the Site Title."
+msgstr ""
+
+#: functions/be/fw-options.php:529
+#, fuzzy
+msgid "Carousel Box Settings"
+msgstr "Carousel Menu"
+
+#: functions/be/fw-options.php:533
+#, fuzzy
+msgid "Display Carousel Box"
+msgstr "Zobrazí Facebook Like Box."
+
+#: functions/be/fw-options.php:539
+#, fuzzy
+msgid "Carousel Content"
+msgstr "Carousel Menu"
+
+#: functions/be/fw-options.php:545
+msgid "Number of Latest Posts in Carousel"
+msgstr ""
+
+#: functions/be/fw-options.php:552
+msgid "Contact Information"
+msgstr ""
+
+#: functions/be/fw-options.php:556
+msgid "Postal Address"
+msgstr ""
+
+#: functions/be/fw-options.php:557
+msgid "Fill here your postal address to be displayed in header."
+msgstr ""
+
+#: functions/be/fw-options.php:562
+msgid "Email Address"
+msgstr ""
+
+#: functions/be/fw-options.php:563
+msgid "Fill here your email address to be displayed in header."
+msgstr ""
+
+#: functions/be/fw-options.php:568
+msgid "Phone Number"
+msgstr ""
+
+#: functions/be/fw-options.php:569
+msgid "Fill here your phone number to be displayed in header."
+msgstr ""
+
+#: functions/be/fw-options.php:574
+msgid "Skype Name"
+msgstr ""
+
+#: functions/be/fw-options.php:575
+msgid "Fill here your Skype name to be displayed in header."
+msgstr ""
+
+#: functions/be/fw-options.php:581
+msgid "Homepage Header Image"
+msgstr ""
+
+#: functions/be/fw-options.php:585
+msgid "Header Image Headline"
+msgstr ""
+
+#: functions/be/fw-options.php:586
+msgid "Fill here the headline to be displayed in the Header Image."
+msgstr ""
+
+#: functions/be/fw-options.php:591
+msgid "Header Image Link URL"
+msgstr ""
+
+#: functions/be/fw-options.php:592
+msgid ""
+"Fill here the URL address of a link to be displayed in the Header Image."
+msgstr ""
+
+#: functions/be/fw-options.php:597
+msgid "Header Image Link Text"
+msgstr ""
+
+#: functions/be/fw-options.php:598
+msgid "Fill here the text of a link to be displayed in the Header Image."
+msgstr ""
+
+#: functions/be/fw-options.php:615
+#, fuzzy
+msgid "Post Settings"
+msgstr "Obnovenie všetkých nastavení"
+
+#: functions/be/fw-options.php:619
+msgid "Display Featured Image on single posts"
+msgstr ""
+
+#: functions/be/fw-options.php:620
+msgid "Set the Featured Image to be visible or not on the single posts."
+msgstr ""
+
+#: functions/be/fw-options.php:628
+msgid "Display Meta Box on single posts"
+msgstr ""
+
+#: functions/be/fw-options.php:629
+msgid ""
+"Set the Meta Box (with publish date, author, category and tags) to be "
+"visible or not on the single posts."
+msgstr ""
+
+#: functions/be/fw-options.php:637
+#, fuzzy
+msgid "Next/Previous Post Navigation"
+msgstr "Navigácia medzi článkami"
+
+#: functions/be/fw-options.php:638
+msgid ""
+"This feature gives the possibility to easy navigate between the posts in "
+"chronological order."
+msgstr ""
+
+#: functions/be/fw-options.php:646
+msgid "Display Related Posts on single posts"
+msgstr ""
+
+#: functions/be/fw-options.php:652
+msgid "Related Posts headline"
+msgstr ""
+
+#: functions/be/fw-options.php:656
+msgid "Related Posts"
+msgstr ""
+
+#: functions/be/fw-options.php:658
+#, fuzzy
+msgid "Number of Related Posts"
+msgstr "Počet článkov:"
+
+#: functions/be/fw-options.php:664
+msgid "Related Posts format"
+msgstr ""
+
+#: functions/be/fw-options.php:667
+msgid "Slider"
+msgstr ""
+
+#: functions/be/fw-options.php:671
+msgid "Page Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:675
+msgid "Display Featured Image on pages"
+msgstr ""
+
+#: functions/be/fw-options.php:676
+msgid "Set the Featured Image to be visible or not on pages."
+msgstr ""
+
+#: functions/be/fw-options.php:697
+msgid "Post Entries Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:701
+msgid "Infinite Scroll"
+msgstr ""
+
+#: functions/be/fw-options.php:702
+msgid ""
+"Select whether to enable or disable the infinite scroll effect for the post "
+"entries."
+msgstr ""
+
+#: functions/be/fw-options.php:706
+msgid "Enable"
+msgstr ""
+
+#: functions/be/fw-options.php:707
+msgid "Disable"
+msgstr ""
+
+#: functions/be/fw-options.php:710
+msgid "Display Meta Box on Post Entries"
+msgstr ""
+
+#: functions/be/fw-options.php:711
+msgid ""
+"Set the Meta Box (with publish date, author, comments, category and tags) to "
+"be visible or not on the post entries."
+msgstr ""
+
+#: functions/be/fw-options.php:719
+msgid "Featured Images Hover Effect"
+msgstr ""
+
+#: functions/be/fw-options.php:722
+msgid "None"
+msgstr ""
+
+#: functions/be/fw-options.php:725
+msgid "Featured Images Size"
+msgstr ""
+
+#: functions/be/fw-options.php:726
+msgid "Set a size of the Featured Images in the One Column layout."
+msgstr ""
+
+#: functions/be/fw-options.php:730
+msgid "Small"
+msgstr ""
+
+#: functions/be/fw-options.php:731
+msgid "Large"
+msgstr ""
+
+#: functions/be/fw-options.php:734
+msgid "Content/Excerpt Displaying"
+msgstr ""
+
+#: functions/be/fw-options.php:735
+msgid ""
+"Select whether you want to display the full content or the post excerpts on "
+"your archive pages (including all archives, homepage and search results)."
+msgstr ""
+
+#: functions/be/fw-options.php:739
+msgid "Excerpt"
+msgstr ""
+
+#: functions/be/fw-options.php:740
+msgid "Content"
+msgstr ""
+
+#: functions/be/fw-options.php:743
+#, fuzzy
+msgid "Excerpt Length"
+msgstr "Dĺžka úvodného textu (slová):"
+
+#: functions/be/fw-options.php:744
+msgid "Set here the number of words you wish to display in the excerpt."
+msgstr ""
+
+#: functions/be/fw-options.php:749
+msgid "Blog Page"
+msgstr ""
+
+#: functions/be/fw-options.php:753
+msgid "Display Site Description"
+msgstr ""
+
+#: functions/be/fw-options.php:754
+msgid ""
+"Set the Site Description to be visible or not on your Latest Posts page."
+msgstr ""
+
+#: functions/be/fw-options.php:773
+msgid "Font Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:777
+msgid "Body font"
+msgstr ""
+
+#: functions/be/fw-options.php:778
+#, fuzzy
+msgid "Select the main body font."
+msgstr "Vyberte kategóriu článkov."
+
+#: functions/be/fw-options.php:785
+msgid "Site Title font"
+msgstr ""
+
+#: functions/be/fw-options.php:786
+msgid "Select a font for your Site Title in header."
+msgstr ""
+
+#: functions/be/fw-options.php:793
+msgid "Page/Post Headlines font"
+msgstr ""
+
+#: functions/be/fw-options.php:794
+msgid "Select a font for page/post headlines (h1 - h6)."
+msgstr ""
+
+#: functions/be/fw-options.php:801
+msgid "Post Entry Headline font"
+msgstr ""
+
+#: functions/be/fw-options.php:802
+msgid ""
+"Select a font for Post Entry headlines displayed on index/archive/search "
+"pages."
+msgstr ""
+
+#: functions/be/fw-options.php:809
+msgid "Sidebar/Footer Widget Headlines font"
+msgstr ""
+
+#: functions/be/fw-options.php:810
+msgid "Select a font for Sidebar/Footer Widget headlines."
+msgstr ""
+
+#: functions/be/fw-options.php:817
+#, fuzzy
+msgid "Main Header Menu font"
+msgstr "Hlavná navigácia v záhlaví"
+
+#: functions/be/fw-options.php:818
+msgid "Select a font for your Main Header Menu."
+msgstr ""
+
+#: functions/be/fw-options.php:836
+msgid "Other Settings"
+msgstr ""
+
+#: functions/be/fw-options.php:842
+msgid ""
+"OPTIONS: <a href=\"widgets.php\">Widgets</a> | <a href=\"nav-menus.php"
+"\">Menus</a> | <a href=\"themes.php?page=custom-header\">Header Image</a> | "
+"<a href=\"themes.php?page=custom-background\">Background Settings</a>"
+msgstr ""
+
+#: functions/be/fw-options.php:844
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/be/fw-options.php:845
+msgid ""
+"Fill here your own cascading style sheet information (CSS).<br />Example: "
+"#content p {font-size: 15px;} #sidebar p {font-size: 14px;}"
+msgstr ""
+
+#: functions/be/fw-options.php:861
+#, fuzzy
+msgid "Get GalaNight Premium Version"
+msgstr "GalaNight Box-Presentation"
+
+#: functions/be/fw-options.php:866
+msgid ""
+"If you would like to purchase the GalaNight Premium Version, you can do so "
+"on <a href=\"http://www.tomastoman.cz/downloads/galanight/\" target=\"_blank"
+"\">Developers Official Website</a>."
+msgstr ""
+
+#: functions/be/fw-options.php:869
+msgid ""
+"<strong>What the GalaNight Premium Version offers in addition?</strong><br /"
+">\n"
+"    - Support for Drag-and-drop Page Builder with 40 in-built widgets for "
+"creating custom page layouts<br />\n"
+"    - 7 pre-defined color schemes (Blue, Green, Orange, Pink, Purple, Red "
+"and Turquoise)<br />\n"
+"    - Unlimited ability to create custom Color scheme (unlimited color "
+"settings)<br />\n"
+"    - Ability to set different Header Images for the individual pages/posts/"
+"categories<br />\n"
+"    - Ability to set different Header Slideshows for the individual pages/"
+"posts<br />\n"
+"    - Ability to set different Sidebars/Footers for the individual pages/"
+"posts<br />\n"
+"    - Image Slideshow with 4 different templates<br />\n"
+"    - Font size settings<br />\n"
+"    - Post Formats support (Aside, Audio, Image, Standard, Status, Video)"
+"<br />\n"
+"    - Related Posts box on the single posts<br />\n"
+"    - 4 dynamic Hover effects for the Post Thumbnails (Fade, Focus, Shadow "
+"and Tilt)<br />\n"
+"    - 6 Custom widgets for displaying the latest posts from the specific "
+"categories (as a Column, Grid, List, Slider, Thumbnails and by Default - One "
+"Column)<br />\n"
+"    - Custom Tab Widget (displays popular posts, recent posts, comments and "
+"tags in tabbed format)<br />\n"
+"    - Box-Image Custom widget (displays a full-screen image section)<br />\n"
+"    - Box-Info Custom widget (displays a text box with an icon)<br />\n"
+"    - Box-Presentation Custom widget (displays a text box with an image)<br /"
+">\n"
+"    - Header Carousel box (slider with your Latest Posts or a Custom Menu)"
+"<br />\n"
+"    - Social Network Profile links in header (69 pre-defined icons)<br />\n"
+"    - Facebook Like Box Custom widget<br />\n"
+"    - Twitter Following Custom widget<br />\n"
+"    - Integrated Facebook/Twitter/Google+1 share buttons on posts/pages/post "
+"entries<br />\n"
+"    - Integrated automatic Sitemap generator with advanced options<br />\n"
+"    - Custom Shortcodes for adding buttons, images, slideshows, tables and "
+"highlighted texts anywhere you like<br />\n"
+"    - Custom Shortcode for displaying Google maps<br />\n"
+"    - Custom Shortcode for displaying specific listing of posts anywhere you "
+"like<br />\n"
+"    - 7 Custom Page templates<br />\n"
+"    - Ability to add custom JavaScript code"
+msgstr ""
+
+#: functions/be/fw-options.php:997 functions/be/fw-options.php:1013
+msgid "Theme Options"
+msgstr "Nastavenie témy"
+
+#: functions/be/fw-options.php:1005
+#, fuzzy
+msgid "settings saved."
+msgstr "nastavenia resetované."
+
+#: functions/be/fw-options.php:1006
+msgid "settings reset."
+msgstr "nastavenia resetované."
+
+#: functions/be/fw-options.php:1022
+msgid "Documentation"
+msgstr ""
+
+#: functions/be/fw-options.php:1022
+msgid "Support"
+msgstr ""
+
+#: functions/be/fw-options.php:1022
+msgid "Get Premium Version"
+msgstr ""
+
+#: functions/be/fw-options.php:1043
+msgid "Save all changes"
+msgstr "Uložiť všetky zmeny"
+
+#: functions/be/fw-options.php:1049
+msgid "Reset all settings"
+msgstr "Obnovenie všetkých nastavení"
+
+#: functions/be/fw-options.php:1078 functions/be/fw-options.php:1086
+msgid "Upload Image"
+msgstr "Nahrať obrázok"

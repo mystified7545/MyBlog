@@ -1,0 +1,190 @@
+/*
+Theme Name: GalaNight
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+
+p, ul, ol, li, dl, address {
+  text-align: right;
+}
+ul {
+  margin-left: 0;
+  margin-right: 16px;   
+}
+ol {
+	margin-left: 0;
+  margin-right: 20px;
+}
+table, td, th {
+  text-align: right;
+}
+blockquote, q { 
+  border-left: none;
+  border-right: 1px solid #e3e3e3;
+}
+
+
+/* basic structure
+-------------------------------------------------------------- */
+
+#main-content {
+  float: right;         
+}
+#sidebar {
+  float: left;
+  margin-left: 0px;
+  margin-right: 30px;      
+}
+.scroll-top {
+  left: 10px;
+  right: auto;            
+}
+
+
+/* header
+-------------------------------------------------------------- */
+
+.title-box {
+  float: right;           
+}
+.menu-box {
+  float: left;         
+}
+
+/* menu */
+.menu-box ul {
+  float: left;
+  text-align: left;
+}
+.menu-box ul li {
+  float: right;
+  margin-right: 37px;
+  margin-left: 0;
+}
+.menu-box a,
+.menu-box a:visited {
+  float: right;
+  text-align: left;
+}
+#wrapper-header .menu-box ul ul a,
+#wrapper-header .menu-box ul ul a:visited {
+  padding-left: 12px;
+  padding-right: 0;
+  text-align: left;
+}
+.menu-box ul ul {
+  left: 0;
+  right: auto;
+}
+.menu-box ul ul ul {
+  left: auto;
+  right: -212px;
+} 
+.menu-panel a,
+.menu-panel a:visited {
+  float: right;                      
+}
+#wrapper-header .menu-panel ul ul a,
+#wrapper-header .menu-panel ul ul a:visited {
+  padding: 0 16px 0 0;
+  text-align: right;
+}
+.menu-panel ul ul {
+  left: auto;
+  right: 0px;
+}
+.menu-panel ul ul ul {
+  left: auto;
+  right: 212px;
+}
+
+/* main content
+-------------------------------------------------------------- */
+
+#main-content .nav-previous {
+  float: right;                            
+}
+#main-content .nav-next {
+  float: left;
+  text-align: left;                            
+}
+
+/* default post entry */
+.attachment-post-thumbnail { 
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+
+/* sidebar
+-------------------------------------------------------------- */
+
+.sidebar-widget ul { 
+  margin: 5px 16px -5px 0;                      
+}
+
+
+/* footer
+-------------------------------------------------------------- */  
+
+.footer-widget-area {
+  float: right;
+  margin-left: 30px;
+  margin-right: 0;               
+}
+#footer .footer-widget-area-3 {
+  margin-left: 0;                              
+}                                 
+
+
+/* default widgets
+-------------------------------------------------------------- */
+
+#wp-calendar #prev {
+  text-align: right;                   
+}
+#wp-calendar #next {
+  text-align: left;                   
+}
+
+
+/* form fields
+-------------------------------------------------------------- */
+
+#searchform .searchform-wrapper #s {
+  padding: 5px 3% 5px 0;
+  left: auto;
+  right: 0;              
+}
+#searchform .searchform-wrapper .send {
+  left: 0;
+  right: auto;
+}
+
+
+/* comments area
+-------------------------------------------------------------- */
+
+#comments ol {
+  margin-left: auto;
+  margin-right: 0;             
+}
+#comments .avatar,
+#comments .fn {
+  float: right;
+  margin: 0 0 0 6px
+}
+#comments time,
+#comments .edit-link {
+  float: left;             
+}
+
+
+/* media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 990px) {
+  .js .selectnav {
+    float: right;
+}
+}

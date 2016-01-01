@@ -1,0 +1,128 @@
+/* Custom Events Calendar styles for GalaNight theme.
+----------------------------------------------- */
+
+/* calendar/list view */
+html .events-list .tribe-events-loop,
+html .tribe-events-day .tribe-events-loop,
+html .single-tribe_venue .tribe-events-loop,
+html .single-tribe_organizer .tribe-events-loop {
+  max-width: 100%;
+}
+.events-archive #content .entry-content,
+.events-archive #content .entry-header {
+  width: 100%;
+}
+#wrapper .tribe-events-list-separator-month {
+  font-size: 20px;
+  margin: 15px 0;
+}
+html #wrapper .tribe-events-page-title {
+  margin: 0 0 5px;
+}
+#wrapper .tribe-events-loop .type-tribe_events {
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 0 25px;
+  padding: 0 0 25px;
+}
+#wrapper .tribe-events-list-event-title {
+  font-size: 22px;
+  font-weight: normal;
+}
+#wrapper .tribe-events-list-event-title a {
+  -webkit-transition: color 1s ease;
+     -moz-transition: color 1s ease;
+       -o-transition: color 1s ease;
+      -ms-transition: color 1s ease;
+          transition: color 1s ease;
+}
+#wrapper .tribe-events-list-event-title a:hover {
+  color: black;
+}
+#wrapper .tribe-events-notices,
+#wrapper #tribe-events-content .tribe-events-calendar {
+  margin-top: 20px;
+}
+html .tribe-events-day .tribe-events-day-time-slot h5 {
+  margin: 20px 0;
+}
+#wrapper .tribe-events-read-more,
+html .tribe-events-list .tribe-events-loop .tribe-events-content {
+  font-size: 14px;                           
+}
+#tribe-events-pg-template .read-more-button {
+  display: none;
+}   
+#wrapper .datepicker th,
+#wrapper .datepicker td {
+  border-radius: 0;
+}
+#wrapper #tribe-bar-form input[type="text"] {
+  background: none !important;
+}
+
+/* single event */
+html #wrapper #tribe-events-pg-template {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+html #wrapper .tribe-events-single-event-title,
+html #wrapper .tribe-events-page-title  {
+  color: black;
+  font-size: 26px;
+}
+html .single-tribe_events .tribe-events-event-image {
+  margin-bottom: 15px;
+}
+#wrapper .tribe-events-schedule h3,
+#wrapper .tribe-events-schedule span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 120% !important;
+  vertical-align: middle !important;
+}
+#wrapper .tribe-events-schedule {
+  margin: 10px 0;
+}
+#wrapper .tribe-events-ical,
+#wrapper .tribe-events-gcal {
+  color: white !important;
+  margin-top: 10px;
+}
+#tribe-events-pg-template #comments {
+  margin-top: 0;
+}
+#wrapper #tribe-events-footer {
+  border-top: none;
+  padding-top: 0;
+}
+html .single-tribe_events #tribe-events-footer .tribe-events-sub-nav {
+  border-top: 1px solid #ebebeb;
+  padding: 15px 0 0;
+}
+
+/* Upcoming Events widget */
+.tribe-events-list-widget-events h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.tribe-events-list-widget-events h4 a {
+  text-decoration: none;
+}
+#wrapper .tribe-events-list-widget ol {
+  list-style-type: none;
+  margin: 12px 0 0;
+}
+#wrapper .tribe-events-list-widget ol li {
+  font-weight: normal;
+  margin: 0 0 6px;
+}
+#wrapper .tribe-events-list-widget .duration {
+  font-weight: normal;
+}
+#wrapper .tribe-events-list-widget .tribe-events-widget-link a {
+  font-size: 14px;
+}

@@ -1,0 +1,138 @@
+/* Boxed Layout Stylesheet for GalaNight theme.
+----------------------------------------------- */
+
+html body {
+  background: #dedede;                
+}
+body .pattern {
+  background: left top repeat url(../images/pattern.png);
+  height: 100%;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  z-index: -1;        
+}
+#container-main {
+  float: left;
+  height: auto;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;        
+}
+#container-boxed {
+  margin: 0 auto; 
+  position: relative;
+  width: 1020px;
+}
+#container-boxed-inner {
+  background: white;   
+  float: left;         
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px #aaaaaa;
+  -moz-box-shadow:    0px 0px 10px #aaaaaa;
+  box-shadow:         0px 0px 10px #aaaaaa;
+}   
+body .footer-signature-content,
+body .menu-panel,
+body .container,
+body #footer,
+body .header-content,
+body .top-navigation {
+  max-width: 960px;
+}
+body #main-content {
+  width: 630px;
+}
+#wrapper #container-boxed .sticky-nav {
+  max-width: 1020px;                     
+}
+body .header-image .header-image-text-wrapper {
+  width: 960px;
+}
+body .footer-widget-area {
+  width: 300px;
+}
+
+@media screen and (max-width: 1020px) {
+  #wrapper #container-boxed {
+    width: 90%;                         
+}
+  html #wrapper #container-boxed .sticky-nav {
+    max-width: 90%;                     
+}
+  #wrapper .header-image .header-image-text-wrapper,
+  #wrapper .header-content,
+  #wrapper .top-navigation,
+  #wrapper .menu-panel,
+  #wrapper .container,
+  #wrapper #footer,
+  #wrapper .footer-signature-content {
+    max-width: 90%;
+    width: 90%;                         
+}
+  #wrapper #main-content {
+    max-width: 100% !important;
+    width: 100% !important;                    
+}
+  #wrapper #sidebar {
+    float: left;
+    margin: 20px 0 10px;
+    width: 100%;                    
+}
+  #wrapper #top-navigation,
+  #wrapper .menu-panel-wrapper,
+  #wrapper .header-image .header-image-text .header-image-link {
+    max-width: 100%;                   
+}
+  #wrapper .header-image .header-image-text .header-image-headline {
+    width: 100%;                                                                   
+}
+  #wrapper #wrapper-header .header-content .title-box,
+  #wrapper #wrapper-header .header-content .menu-box {
+    float: left;
+    width: 100% !important;           
+}
+  #wrapper #wrapper-header .header-content .menu-box {
+    padding: 10px 0 30px;                                                     
+}
+  #wrapper #wrapper-header .header-content .site-title {
+    max-width: 100%;               
+}
+  #wrapper #wrapper-header .header-content .header-logo {
+    max-width: 100%;               
+}
+  .js #nav,
+  .js #main-nav {
+    display: none;
+}
+  .js .selectnav {
+    background: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    color: #333333;
+    display: block;
+    float: left;
+    height: 27px;
+    margin: 4px 0 0; 
+    position: relative;
+    width: 40%;
+}
+  .js .header-content .selectnav,
+  .js .menu-panel-wrapper .selectnav {
+    width: 100%;                                
+}
+  .js .menu-panel-wrapper .selectnav {
+    margin-top: 8px;                                
+}
+  #wrapper #footer {
+    padding: 30px 0 4px;                   
+}
+  #footer .footer-widget-area {
+    margin: 0;
+    padding: 0;
+    width: 100%;                              
+}
+}

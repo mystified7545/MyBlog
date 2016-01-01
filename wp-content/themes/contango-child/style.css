@@ -2,11 +2,15 @@
 Theme Name: contango-child
 Description: Child theme for InnoculateIT
 Author: Pratik Manandhar
-Template: contango
+Template: Contango
 */
 
 @import url('../contango/style.css');
 
-#logo-image{
-    background-image: url('../contango/images/headers/Abstract-Header.jpg');
+/*
+#logo-image img{
+
+    content:url('../contango/images/headers/Abstract-Header.jpg');
 }
+*/
+

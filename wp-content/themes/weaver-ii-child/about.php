@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * Created by PhpStorm.
@@ -6,5 +8,9 @@
  * Time: 9:59 AM
  */
 
+/**
+*Template Name: Splash Page
+*/
 
-weaverii_get_header('index');
+/*weaverii_get_header('index');*/
+?>
